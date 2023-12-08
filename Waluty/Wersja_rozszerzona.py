@@ -8,11 +8,7 @@ client = currencyapicom.Client("cur_live_Ht7cwEfYvrVC1bbDJTvjhWEkVqwHW5d71kN5BK5
 
 app = FastAPI()
 
-@app.get("/")
-def home():
-    return {"Data": "Test"}
-
-@app.get("/convert/{input_currency}/{output_currencies}/{amount}/{date}")
+@app.get("/convert")
 def convert(input_currency: str = None, output_currencies: str = None, amount: str = None, date: str = None):
 
     input_currency = input_currency.upper()

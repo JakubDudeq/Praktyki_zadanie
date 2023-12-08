@@ -18,7 +18,6 @@ następujące parametry:
   output_currencies
   amount
   date
-Nie wiem w jaki sposób w 1 endpoincie można przesłać 4 zmienne chyba że chodzi o tą strukturę ?input=PLN&output...  ale to wydawalo mi się dziwne wpisywać w link takie specyficzne rzeczy by to działało
 
 2: Wszystko zajeło mi z 5-6h razem z szukaniem, tak długo bo API i JSONy miałem tylko na JS a routingi na Laravelu więc musiałem całkiem dużo szukać w internecie by to wszystko znaleść i zrobić bo jak wspominałem pythona miałem w szkole troche ale nie jest to główny język jaki mamy + pip mi nie działał przez jakieś 45 minut nie wiem czemu ale już działa.
 Ale chyba wszystko jest zrobione całkiem poprawnie.
